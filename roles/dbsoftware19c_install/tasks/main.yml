@@ -51,7 +51,7 @@
   unarchive:
      src={{ stage_dir }}/LINUX.X64_193000_db_home.zip
      dest="{{ oracle_home }}"
-     remote_src=no
+     remote_src=yes
      mode=0775
      group="{{ oracle_install_group }}"
      owner="{{ oracle_user }}"
