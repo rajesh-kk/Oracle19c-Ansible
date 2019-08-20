@@ -28,6 +28,7 @@
   copy: src=roles/dbsoftware19c_install/files/{{ item }} dest={{ stage_dir }} mode=0755 owner="{{ oracle_user }}" group="{{ oracle_install_group }}"
   with_items:
      - oracle-database-preinstall-19c-1.0-1.el7.src.rpm
+     - LINUX.X64_193000_db_home.zip
   tags:
    - db19c_preinstpkg
 
