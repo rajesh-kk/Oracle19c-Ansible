@@ -47,5 +47,3 @@ inventory = ./inventory
 
 4. Run the playbook role "dbsoftware19c_install"
 ansible-playbook dbsoftware19c_install  [ with options for testing, use --check / --diff / --step / -vvv ]
-
-
